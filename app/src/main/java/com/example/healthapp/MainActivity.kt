@@ -1,5 +1,6 @@
 package com.example.healthapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.healthapp.R
@@ -16,12 +17,12 @@ class MainActivity : AppCompatActivity() {
 
         //handle click login
         binding.loginBtn.setOnClickListener {
-
+            startActivity(Intent(this, LoginActivity::class.java))
         }
 
         //handle click skip login and continue to main screen
         binding.skipBtn.setOnClickListener {
-
+            startActivity(Intent(this, DashboardUserActivity::class.java))
         }
     }
 }
