@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        //hadle click login
+        //handle click login
         binding.loginBtn.setOnClickListener {
 
         }
