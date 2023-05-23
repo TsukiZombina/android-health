@@ -54,4 +54,5 @@
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
     <string name="new_user_signup">¿Nuevo usuario? <b>Regístrese</b></string>
+    <string name="logo">Logo de la aplicación</string>
 </resources>
