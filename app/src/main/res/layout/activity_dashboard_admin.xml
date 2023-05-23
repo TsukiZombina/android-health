@@ -48,7 +48,7 @@
     <LinearLayout
         android:id="@+id/bottomLl"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="10dp"
@@ -70,9 +70,10 @@
         <!--Add Appointment-->
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/addAppointmentFab"
+            android:contentDescription="@string/logo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:backgroundInt="@color/purple500"
+            android:backgroundTint="@color/purple_500"
             app:fabCustomSize="50dp"
             android:src="@drawable/ic_appointment_white"
             app:tint="@color/white"/>

@@ -28,6 +28,11 @@ class DashboardAdminActivity : AppCompatActivity() {
             firebaseAuth.signOut()
             checkUser()
         }
+
+        //handle click, start add specialty
+        binding.addSpecialtyBtn.setOnClickListener {
+            startActivity(Intent(this, SpecialtyAddActivity::class.java))
+        }
     }
 
     private fun checkUser() {
