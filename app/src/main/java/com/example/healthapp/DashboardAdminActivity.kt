@@ -64,6 +64,11 @@ class DashboardAdminActivity : AppCompatActivity() {
         binding.addSpecialtyBtn.setOnClickListener {
             startActivity(Intent(this, SpecialtyAddActivity::class.java))
         }
+
+        // handle click, start add appointment page
+        binding.addAppointmentFab.setOnClickListener {
+            startActivity(Intent(this, AppointmentAddActivity::class.java))
+        }
     }
 
     private fun loadSpecialties() {

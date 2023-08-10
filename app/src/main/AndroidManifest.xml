@@ -13,6 +13,9 @@
         android:theme="@style/Theme.HealthApp"
         tools:targetApi="31">
         <activity
+            android:name=".AppointmentAddActivity"
+            android:exported="false" />
+        <activity
             android:name=".SpecialtyAddActivity"
             android:exported="false" />
         <activity
